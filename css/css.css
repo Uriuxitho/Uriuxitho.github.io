@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* css de header */
+header{
+    width: 100%;
+    height: 530px;
+    background: #8a2387;
+    /* fallback for old browsers */
+    background: linear-gradient(
+        to right,
+        hsla(0, 89%, 54%, 0.603),
+        hsla(352, 79%, 58%, 0.603),
+        hsla(14, 87%, 44%, 0.603)
+      ),
+      url(../img/afondo.png); 
+      /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        hsla(1, 89%, 54%, 0.603),
+        hsla(352, 79%, 58%, 0.603),
+        hsla(8, 74%, 39%, 0.603)
+      ),
+      url(../img/afondo.png); 
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    background-size: contain;
+  
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .imagen-araña{
+    width: 100%;
+   height: 0px;
+}
+
+.imagen-araña{
+   width: 100%;
+    
+   padding: 0 0 0 590px;
+
+}
+
+.imagen-araña img{
+    height: 520px;
+}
+
+
+header .imagen{
+
+    height: 10%;
+    width: 0%;
+
+
+}
+.imagen{
+
+    position: relative;
+    top: 36px;
+    left: 60px;
+
+}
+
+nav{
+    text-align: left;
+    padding: 1px 30px 0 130px;
+}
+
+nav > a{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 11px;
+}
+nav > a:hover{
+    
+    text-decoration: underline;
+  
+}
+header .texto-header{
+   display: flex;
+   height: 50px;
+   width: 100%;
+   align-items: center;
+   text-align: center;
+  
+   padding: 100px 50px 0 30px;
+
+}
+.texto-header h1{
+    color: white;
+    font-size: 50px;
+    
+}
+header .texto-intro{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+ 
+    padding: 60px 50px 0 30px;
+}
+.texto-intro p{
+    color: white;
+    font-size: 15px;
+    font-family:cursive ;
+}
+
+/* css fooder */
+
+footer {
+  background: #414141;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+.contenedor-footer {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.contenedor-foo {
+  text-align: center;
+}
+.contenedor-foo h4 {
+  color: #fff;
+  border-bottom: 3px solid #297bf5;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.contenedor-foo p {
+  color: #ccc;
+}
+.titulo-Final {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
+}
